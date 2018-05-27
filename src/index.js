@@ -12,6 +12,7 @@ require('./controllers/mercadoController')(app);
 require('./controllers/atletasController')(app);
 require('./controllers/partidasController')(app);
 require('./controllers/noticiasController')(app);
+require('./controllers/globoEsporteController')(app);
 
 
 app.listen(3000);
